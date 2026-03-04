@@ -11,6 +11,7 @@ int main()
     
     cout << "Enter your name: ";
     //getline(cin, name); // wont accept white space if we read any string before tis
+    // getline(std::cin >> std::ws, name); //This will accept white space if read any string before this   
     getline(cin >> ws, name); //This will accept white space if read any string before this    
     cout << "Hello " << name << "\n";
     cout << "Your " << age << " years old";
